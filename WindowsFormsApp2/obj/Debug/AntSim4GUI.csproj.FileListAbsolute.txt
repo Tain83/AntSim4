@@ -1,0 +1,11 @@
+D:\Tain\CodeProjects\AntSim4\WindowsFormsApp2\bin\Debug\AntSim4GUI.exe.config
+D:\Tain\CodeProjects\AntSim4\WindowsFormsApp2\bin\Debug\AntSim4GUI.xml
+D:\Tain\CodeProjects\AntSim4\WindowsFormsApp2\bin\Debug\AntSim4GUI.exe
+D:\Tain\CodeProjects\AntSim4\WindowsFormsApp2\bin\Debug\AntSim4GUI.pdb
+D:\Tain\CodeProjects\AntSim4\WindowsFormsApp2\obj\Debug\AntSim4GUI.csprojAssemblyReference.cache
+D:\Tain\CodeProjects\AntSim4\WindowsFormsApp2\obj\Debug\AntSim4GUI.Form1.resources
+D:\Tain\CodeProjects\AntSim4\WindowsFormsApp2\obj\Debug\AntSim4GUI.Properties.Resources.resources
+D:\Tain\CodeProjects\AntSim4\WindowsFormsApp2\obj\Debug\AntSim4GUI.csproj.GenerateResource.cache
+D:\Tain\CodeProjects\AntSim4\WindowsFormsApp2\obj\Debug\AntSim4GUI.csproj.CoreCompileInputs.cache
+D:\Tain\CodeProjects\AntSim4\WindowsFormsApp2\obj\Debug\AntSim4GUI.exe
+D:\Tain\CodeProjects\AntSim4\WindowsFormsApp2\obj\Debug\AntSim4GUI.pdb

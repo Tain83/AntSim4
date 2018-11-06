@@ -1,0 +1,7 @@
+D:\Tain\CodeProjects\AntSim4\AntSim4\bin\Debug\AntSim4.xml
+D:\Tain\CodeProjects\AntSim4\AntSim4\bin\Debug\AntSim4.dll
+D:\Tain\CodeProjects\AntSim4\AntSim4\bin\Debug\AntSim4.pdb
+D:\Tain\CodeProjects\AntSim4\AntSim4\obj\Debug\Tain.AntSim4.csprojAssemblyReference.cache
+D:\Tain\CodeProjects\AntSim4\AntSim4\obj\Debug\Tain.AntSim4.csproj.CoreCompileInputs.cache
+D:\Tain\CodeProjects\AntSim4\AntSim4\obj\Debug\AntSim4.dll
+D:\Tain\CodeProjects\AntSim4\AntSim4\obj\Debug\AntSim4.pdb

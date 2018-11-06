@@ -1,0 +1,218 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AntSim4</name>
+    </assembly>
+    <members>
+        <member name="T:Tain.AntSim4.Animal">
+            <summary>  
+             Animals sind alle beweglichen Elemente
+            </summary>  
+        </member>
+        <member name="F:Tain.AntSim4.Animal.xPos">
+            <summary>  
+             Definiert die aktuelle Position in X-Richtung eines Tieres
+            </summary> 
+        </member>
+        <member name="F:Tain.AntSim4.Animal.yPos">
+            <summary>  
+             Definiert die aktuelle Position in Y-Richtung eines Tieres
+            </summary> 
+        </member>
+        <member name="F:Tain.AntSim4.Animal.direction">
+            <summary>  
+             Definiert die aktuelle Bewegungsrichtung eines Tieres
+            </summary> 
+        </member>
+        <member name="F:Tain.AntSim4.Animal.speed">
+            <summary>  
+             Definiert die maximale Geschwindigkeit eines Tieres
+            </summary> 
+        </member>
+        <member name="F:Tain.AntSim4.Animal.rotationSpeed">
+            <summary>  
+             Definiert die maximale Drehgeschwindigkeit eines Tieres
+            </summary> 
+        </member>
+        <member name="F:Tain.AntSim4.Animal.sightDistance">
+            <summary>  
+             Definiert die maximale Sichtentfernung eines Tieres
+            </summary> 
+        </member>
+        <member name="F:Tain.AntSim4.Animal.loadCapacity">
+            <summary>  
+             Definiert die maximale Beladungsmenge eines Tieres
+            </summary> 
+        </member>
+        <member name="F:Tain.AntSim4.Animal.energy">
+            <summary>  
+             Definiert die noch zur Verfügung stehenden Energiereserven bis zum Tod
+            </summary> 
+        </member>
+        <member name="M:Tain.AntSim4.Animal.#ctor(System.Int32,System.Int32)">
+            <summary>  
+             Instanziiert Tiere über eine Position 
+            </summary> 
+        </member>
+        <member name="M:Tain.AntSim4.Animal.#ctor(Tain.AntSim4.Base)">
+            <summary>  
+             Instanziiert Tiere über eine HeimatBasis
+            </summary> 
+        </member>
+        <member name="P:Tain.AntSim4.Animal.XPos">
+            <summary>  
+             Zeigt die aktuelle Position in X-Richtung eines Tieres
+            </summary> 
+        </member>
+        <member name="P:Tain.AntSim4.Animal.YPos">
+            <summary>  
+             Zeigt die aktuelle Position in Y-Richtung eines Tieres
+            </summary> 
+        </member>
+        <member name="P:Tain.AntSim4.Animal.Direction">
+            <summary>  
+             Zeigt die aktuelle Bewegungsrichtung eines Tieres
+            </summary> 
+        </member>
+        <member name="M:Tain.AntSim4.Animal.Walk(System.Int32)">
+            <summary>  
+             Animal bewegt sich um "distance" bzw. "speed" in Richtung "orientation"
+            </summary>
+        </member>
+        <member name="M:Tain.AntSim4.Animal.Turn(System.Int32)">
+            <summary>  
+             Animal dreht sich um "angle" 
+            </summary>
+        </member>
+        <member name="M:Tain.AntSim4.Animal.Look">
+            <summary>  
+             Identifiziert alle Objekte im Sichtbereich 
+            </summary>
+        </member>
+        <member name="T:Tain.AntSim4.Ant">
+            <summary>
+            Beschreibt ein einzelnes Tier
+            </summary>
+        </member>
+        <member name="M:Tain.AntSim4.Ant.#ctor(Tain.AntSim4.Base)">
+            <summary>
+            Instanziiert eine Ameise
+            </summary>
+        </member>
+        <member name="T:Tain.AntSim4.Nation">
+            <summary>
+            Beschreibt ein Volk einer Tierart
+            </summary>
+        </member>
+        <member name="M:Tain.AntSim4.Nation.#ctor(System.String,Tain.AntSim4.Species,System.Int32,System.Int32)">
+            <summary>
+            Instanziiert ein Volk
+            </summary>
+        </member>
+        <member name="T:Tain.AntSim4.Class1">
+            <summary>
+            Description of Class.
+            </summary>
+        </member>
+        <member name="T:Tain.AntSim4.RoundEventArgs">
+            <summary>
+            Liefert Rundennummer als EventArgs für Event SimRoundEnded
+            </summary>
+        </member>
+        <member name="P:Tain.AntSim4.RoundEventArgs.RoundNumber">
+            <summary>
+            Gibt die aktuelle Rundenummer wider
+            </summary>
+        </member>
+        <member name="M:Tain.AntSim4.RoundEventArgs.#ctor(System.Int32)">
+            <summary>
+            Instanziiert RoundEventArgs mit int 
+            </summary>
+        </member>
+        <member name="T:Tain.AntSim4.Simulation">
+            <summary>
+            Verwaltet die Simulation.
+            </summary>
+        </member>
+        <member name="T:Tain.AntSim4.Simulation.RoundEndedEventHandler">
+            <summary>
+            Delegate für SimRundenEnde (SimRoundEnded)
+            </summary>
+        </member>
+        <member name="E:Tain.AntSim4.Simulation.SimRoundEnded">
+            <summary>
+            Dieser Event wird ausgelöst, wenn eine Simulationsrunde beendet ist.
+            </summary>
+        </member>
+        <member name="M:Tain.AntSim4.Simulation.#ctor(System.Int32[])">
+            <summary>
+            Instanziiert eine Simulation
+            </summary>
+        </member>
+        <member name="P:Tain.AntSim4.Simulation.FieldLength">
+            <summary>
+            Gibt Spielfeldlänge wider.
+            </summary>
+        </member>
+        <member name="P:Tain.AntSim4.Simulation.NextSpeciesIndex">
+            <summary>
+            Gibt die nächste unbenutzte SpeciesID zur Tierart-Erzeugung wider.
+            </summary>
+        </member>
+        <member name="P:Tain.AntSim4.Simulation.Species">
+            <summary>
+            Gibt die Liste aktuell gültigen Tierarten wider.
+            </summary>
+        </member>
+        <member name="P:Tain.AntSim4.Simulation.NextNationIndex">
+            <summary>
+            Gibt die nächste unbenutzte NationID zur Volk-Erzeugung wider.
+            </summary>
+        </member>
+        <member name="P:Tain.AntSim4.Simulation.Nations">
+            <summary>
+            Gibt die Liste aktuell gültigen Völker wider.
+            </summary>
+        </member>
+        <member name="P:Tain.AntSim4.Simulation.NextSimObjectIndex">
+            <summary>
+            Gibt die nächste unbenutzte SimObjectID zur Objekterzeugung wider.
+            </summary>
+        </member>
+        <member name="P:Tain.AntSim4.Simulation.SimObjects">
+            <summary>
+            Gibt die Liste aktuell gültigen SimObjekte wider.
+            </summary>
+        </member>
+        <member name="P:Tain.AntSim4.Simulation.SimField">
+            <summary>
+            Gibt oder setzt die Objekte des Spielfeldes
+            </summary>
+        </member>
+        <member name="P:Tain.AntSim4.Simulation.NextAntIndex">
+            <summary>
+            Gibt die nächste unbenutzte AntID zur Ameisenerzeugung wider.
+            </summary>
+        </member>
+        <member name="P:Tain.AntSim4.Simulation.Ants">
+            <summary>
+            Gibt die Liste aktuell gültigen Ameisen wider.
+            </summary>
+        </member>
+        <member name="T:Tain.AntSim4.Species">
+            <summary>
+            Beschreibt eine Spezies
+            </summary>
+        </member>
+        <member name="P:Tain.AntSim4.Species.Capabilities">
+            <summary>
+            Gibt die Fähigkeiten einer Tierart wider. (int speed, int rotationSpeed, int sigthDistance, int loadCapacity)
+            </summary>
+        </member>
+        <member name="M:Tain.AntSim4.Species.#ctor(System.String,System.Int32[])">
+            <summary>
+            Instanziiert eine Tierart
+            </summary>
+        </member>
+    </members>
+</doc>
